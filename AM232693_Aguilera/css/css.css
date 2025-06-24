@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #004d99;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav {
+  background: #0066cc;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  display: block;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background: #0055aa;
+  border-radius: 5px;
+}
+
+.contenido {
+  padding: 2rem;
+}
+
+.contenido h2 {
+  margin-bottom: 1rem;
+  color: #004d99;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.galeria img {
+  width: 100%;
+  height: 600px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  background: #004d99;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .contenido {
+    padding: 1rem;
+  }
+}
