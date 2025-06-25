@@ -11,4 +11,4 @@ Este proyecto fue desarrollado como parte de la asignatura **Diseño y Programac
   Carnet: ML222713
   
   - **Kennard **  
-  Carnet:
+  Carnet: PA232735
