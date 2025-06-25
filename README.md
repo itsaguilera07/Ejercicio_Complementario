@@ -7,5 +7,8 @@ Este proyecto fue desarrollado como parte de la asignatura **Diseño y Programac
 - **Kevin Aguilera**  
   Carnet: AM232693
 
-- **Kennard **  
-  Carnet: 
+- **Manuel Miranda**  
+  Carnet: ML222713
+  
+  - **Kennard **  
+  Carnet:
