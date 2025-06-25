@@ -10,5 +10,5 @@ Este proyecto fue desarrollado como parte de la asignatura **Diseño y Programac
 - **Manuel Miranda**  
   Carnet: ML222713
   
-  - **Kennard Pineda**  
+ - **Kennard Pineda**  
   Carnet: "PA232735"
